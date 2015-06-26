@@ -1,0 +1,16 @@
+[push]
+	default = simple
+[user]
+	email = enengege@gmail.com
+	name = Aha-
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
+	unstage = reset HEAD --
+[color]
+	ui = true
+[core]
+	editor = vim

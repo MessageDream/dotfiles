@@ -87,6 +87,7 @@ alias tmux="tmux -2"
 alias rake="noglob rake"
 alias grepjs="grep -ir --include='*.js'"
 alias greppy="grep -ir --include='*.py'"
+alias grephtml="grep -ir --include='*.html'"
 alias vi="vim"
 alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
 
