@@ -1,12 +1,12 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/aha/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
-#ZSH_THEME="agnoster"
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 #ZSH_THEME="kardan"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -83,14 +83,12 @@ source $ZSH/oh-my-zsh.sh
 alias now="date '+%I:%M:%S'"
 alias cp="cp -i"
 alias mv="mv -i"
-alias tmux="tmux -2"
-alias rake="noglob rake"
-alias grepjs="grep -ir --include='*.js'"
-alias greppy="grep -ir --include='*.py'"
-alias grephtml="grep -ir --include='*.html'"
+#alias tmux="tmux -2"
+#alias rake="noglob rake"
+alias grepjs="grep -irl --include='*.js'"
+alias greppy="grep -irl --include='*.py'"
+alias grepcss="grep -irl --include='*.css'"
+alias grephtml="grep -irl --include='*.html'"
 alias vi="vim"
-alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
-
-# autojump 
-[[ -s /home/aha/.autojump/etc/profile.d/autojump.sh ]] && source /home/aha/.autojump/etc/profile.d/autojump.sh
-autoload -U compinit && compinit -u
+alias vim='/opt/local/bin/vim'
+alias clr="clear"
